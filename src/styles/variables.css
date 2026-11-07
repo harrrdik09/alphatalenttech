@@ -1,0 +1,21 @@
+:root {
+  --navy: #080b1a;
+  --navy-raise: #10142a;
+  --purple: #633bff;
+  --purple-ink: #3d22b8;
+  --blue: #248bff;
+  --indigo: #21154f;
+  --lavender: #b5a5ff;
+  --white: #f5f6ff;
+  --ink: #17182b;
+  --body: #243049;
+  --muted: #3d445c;
+  --line: rgba(33, 21, 79, 0.12);
+  --line-light: rgba(181, 165, 255, 0.22);
+  --danger: #8d1d3d;
+  --nav-h: 78px;
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --shadow: 0 24px 60px rgba(8, 11, 26, 0.16);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

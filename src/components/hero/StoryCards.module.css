@@ -1,0 +1,81 @@
+.panel {
+  width: 100%;
+  padding: 12px 12px 10px;
+  border-radius: 16px;
+  background: rgba(8, 11, 26, 0.88);
+  border: 1px solid rgba(181, 165, 255, 0.48);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  color: var(--white);
+}
+
+.candidate { border-color: rgba(36, 139, 255, 0.55); }
+
+.dimmed { opacity: 0.5; }
+
+.kicker {
+  margin: 0 0 4px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lavender);
+}
+
+.panel strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.panel dl { margin: 0; }
+
+.panel dl div + div { margin-top: 6px; }
+
+.panel dt {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lavender);
+}
+
+.panel dd {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--white);
+}
+
+.note {
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: #c8c6e4;
+}
+
+.sideLabel {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: rgba(8, 11, 26, 0.78);
+  border: 1px solid rgba(181, 165, 255, 0.4);
+  border-radius: 999px;
+  padding: 5px 9px;
+}
+
+.nodeTag {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--white);
+  background: rgba(33, 21, 79, 0.9);
+  border: 1px solid rgba(181, 165, 255, 0.45);
+  border-radius: 999px;
+  padding: 3px 7px;
+}

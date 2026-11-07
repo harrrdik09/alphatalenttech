@@ -1,0 +1,29 @@
+.heading h2,
+.inverse h2 {
+  font-size: clamp(34px, 4.4vw, 56px);
+  max-width: 14em;
+}
+
+.heading h2 { color: var(--ink); }
+
+.inverse h2 { color: var(--white); }
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--purple-ink);
+}
+
+.inverse .eyebrow { color: var(--lavender); }
+
+.lede {
+  margin-top: 16px;
+  max-width: 46rem;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.inverse .lede { color: #c8c6e4; }

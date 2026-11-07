@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 18px 16px;
+}
+
+.stages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+
+.stage {
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(181, 165, 255, 0.28);
+  background: transparent;
+  color: #c8c6e4;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.stage span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  color: var(--white);
+  background: rgba(181, 165, 255, 0.16);
+}
+
+.on {
+  color: var(--white);
+  border-color: transparent;
+  background: #2a1b66;
+}
+
+.on span { background: var(--purple); }
+
+.play {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid rgba(181, 165, 255, 0.35);
+  background: transparent;
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .row { padding-inline: 12px; }
+  .stage { font-size: 12.5px; padding-inline: 10px; }
+}

@@ -1,0 +1,44 @@
+.button {
+  min-height: 48px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  background: transparent;
+}
+
+.primary {
+  background: var(--purple);
+  color: #fff;
+}
+
+.primary:hover { background: #542cf0; }
+
+.secondary {
+  color: var(--white);
+  border-color: rgba(181, 165, 255, 0.6);
+}
+
+.secondary:hover { border-color: var(--white); background: rgba(255, 255, 255, 0.04); }
+
+.ink {
+  background: var(--indigo);
+  color: var(--white);
+}
+
+.ink:hover { background: #2a1b66; }
+
+.light {
+  background: var(--white);
+  color: var(--indigo);
+}
+
+.light:hover { background: #fff; }

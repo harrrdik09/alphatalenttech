@@ -1,0 +1,74 @@
+.contact { background: var(--white); color: var(--ink); }
+
+.layout {
+  display: grid;
+  grid-template-columns: 0.78fr 1.22fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.eyebrow {
+  color: var(--purple-ink);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.contact h2 {
+  margin-top: 12px;
+  font-size: clamp(36px, 4vw, 56px);
+  max-width: 10em;
+  color: var(--ink);
+}
+
+.lede {
+  margin-top: 14px;
+  color: var(--muted);
+  max-width: 36rem;
+}
+
+.details {
+  margin: 28px 0 0;
+}
+
+.details div {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.details dt {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--purple-ink);
+}
+
+.details dd { margin: 4px 0 0; }
+
+.details a {
+  color: var(--ink);
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.details span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .card { padding: 18px; }
+}

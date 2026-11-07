@@ -1,0 +1,57 @@
+.band {
+  background: var(--navy);
+  padding: 88px 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 36px;
+  align-items: center;
+}
+
+.mark {
+  height: 220px;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid rgba(181, 165, 255, 0.22);
+  background: #080b1a;
+  display: grid;
+  place-items: center;
+}
+
+.mark > div { width: 100%; height: 100%; }
+
+.sketch { width: min(100%, 260px); height: auto; }
+
+.eyebrow {
+  color: var(--lavender);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.band h2 {
+  margin-top: 12px;
+  font-size: clamp(34px, 4vw, 56px);
+  max-width: 12em;
+}
+
+.lede {
+  margin-top: 14px;
+  max-width: 42rem;
+  color: #c8c6e4;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+@media (max-width: 800px) {
+  .layout { grid-template-columns: 1fr; }
+  .mark { height: 160px; }
+}
